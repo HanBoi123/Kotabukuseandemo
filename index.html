@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SW Bookstore Rewards Funnel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260619-premium-v18" />
+  </head>
+  <body>
+    <main>
+      <section class="section hero" id="top">
+        <div class="ambient-grid"></div>
+        <div class="section-inner hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">SW Bookstore Reward Unlock</p>
+            <h1>ONE REDEEM. FOUR UNLOCKS.</h1>
+            <p class="hero-subtitle">Reward #3 is your unfair advantage.</p>
+            <a class="scroll-trigger" href="#reward-01">Unlock Reward 01</a>
+          </div>
+
+          <div class="vault-stage" aria-label="Four locked reward slots">
+            <div class="vault-aura"></div>
+            <div class="vault-panel unlocked">
+              <span>01</span>
+              <strong>Reward 01</strong>
+            </div>
+            <div class="vault-panel">
+              <span>02</span>
+              <strong>Reward 02</strong>
+            </div>
+            <div class="vault-panel mystery">
+              <span>03</span>
+              <strong>Reward 03</strong>
+            </div>
+            <div class="vault-panel">
+              <span>04</span>
+              <strong>Reward 04</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll-hint" aria-hidden="true"><span></span></div>
+
+        <!-- Wave transition: hero → reward 01 -->
+        <div class="hero-wave" aria-hidden="true">
+          <svg viewBox="0 0 1440 130" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <!-- Back layer: slightly blue-tinted, sits higher -->
+            <path
+              d="M0,75 C200,30 420,100 660,58 C900,16 1100,85 1280,55 C1360,40 1410,62 1440,52 L1440,130 L0,130 Z"
+              fill="rgba(210,234,255,0.45)"
+            />
+            <!-- Front layer: solid porcelain — matches body/reward 01 background -->
+            <path
+              d="M0,95 C180,55 380,118 620,80 C860,42 1060,105 1260,75 C1360,60 1410,82 1440,72 L1440,130 L0,130 Z"
+              fill="#f3f0ea"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <section class="section reward blind-box" id="reward-01">
+        <div class="section-inner split-layout">
+          <div class="visual-stage">
+            <div class="stage-orbit"></div>
+            <div class="blind-box-plinth"></div>
+            <div class="luxury-card-stack">
+              <div class="lc lc-back-2"></div>
+              <div class="lc lc-back-1"></div>
+              <div class="lc lc-front">
+                <div class="lc-edge-top"></div>
+                <div class="lc-edge-left"></div>
+                <div class="lc-shimmer"></div>
+                <div class="lc-chip"></div>
+                <div class="lc-watermark" aria-hidden="true">?</div>
+                <div class="lc-copy">
+                  <p class="lc-eyebrow">Reward 01</p>
+                  <p class="lc-title">BLIND BOX</p>
+                </div>
+                <div class="lc-dots" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <div class="prize-ribbon">
+              <span>Tablet</span>
+              <span>Action camera</span>
+              <span>Smartwatch</span>
+              <span>Speaker</span>
+              <span>Headphone</span>
+              <span>Stationery</span>
+            </div>
+          </div>
+          <div class="section-copy">
+            <p class="reward-index">Reward 01</p>
+            <h2>EVERYONE OPENS ONE - GUARANTEED.</h2>
+            <p>
+              Every redeem gets one. Real prizes - tablet, action camera,
+              smartwatch, speaker, headphone and more - already waiting in your
+              school.
+            </p>
+            <a class="scroll-trigger" href="#reward-02">Reward 02 has bigger prizes</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reward mega-draw" id="reward-02">
+        <div class="section-inner">
+
+          <!-- Editorial header: h2 full-width above, info row below -->
+          <div class="mega-editorial">
+            <p class="reward-index">Reward 02</p>
+            <h2>MORE WINNERS THAN YOU THINK.</h2>
+            <div class="mega-editorial-meta">
+              <p>The guaranteed blind box is only the start. One redeem also puts you into the bigger prize moment.</p>
+              <div class="mega-editorial-actions">
+                <div class="mega-entry-strip">1 redeem enters the Mega Draw</div>
+                <a class="scroll-trigger" href="#reward-03">Reward 03 is your unfair advantage →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section divider -->
+          <div class="mega-rule" aria-hidden="true"></div>
+
+          <!-- Full-width prize bento -->
+          <div class="mega-prize-board" aria-label="Mega Draw prize cards">
+
+            <!-- Col 1-2, Row 1-2: Bicycle (grand prize) -->
+            <article class="mega-prize-card large mint">
+              <div class="mega-card-label">
+                <span>Grand Prize</span>
+                <span>01</span>
+              </div>
+              <div class="mega-icon-wrap">
+                <svg role="img" viewBox="0 0 180 120" aria-label="Bicycle outline">
+                  <circle cx="42" cy="84" r="24" />
+                  <circle cx="138" cy="84" r="24" />
+                  <path d="M42 84l40-50 26 50H42l46 0 32-42" />
+                  <path d="M82 34h28m12 8l20-18M82 34L70 14" />
+                </svg>
+              </div>
+              <h3>Bicycle</h3>
+            </article>
+
+            <!-- Col 3, Row 1 -->
+            <article class="mega-prize-card gold">
+              <div class="mega-card-label">
+                <span>Tech Prize</span>
+                <span>02</span>
+              </div>
+              <div class="mega-icon-wrap">
+                <svg role="img" viewBox="0 0 100 80" aria-label="iPad outline">
+                  <path d="M31,6 H69 A7,7,0,0,1,76,13 V67 A7,7,0,0,1,69,74 H31 A7,7,0,0,1,24,67 V13 A7,7,0,0,1,31,6 Z"/>
+                  <circle cx="50" cy="72" r="2.5"/>
+                </svg>
+              </div>
+              <h3>iPad</h3>
+            </article>
+
+            <!-- Col 4, Row 1 -->
+            <article class="mega-prize-card">
+              <div class="mega-card-label">
+                <span>Tech Prize</span>
+                <span>03</span>
+              </div>
+              <div class="mega-icon-wrap">
+                <svg role="img" viewBox="0 0 100 80" aria-label="iPhone outline">
+                  <path d="M41,6 H59 A11,11,0,0,1,70,17 V63 A11,11,0,0,1,59,74 H41 A11,11,0,0,1,30,63 V17 A11,11,0,0,1,41,6 Z"/>
+                  <path d="M40,13 h20"/>
+                  <circle cx="50" cy="72" r="2"/>
+                </svg>
+              </div>
+              <h3>iPhone</h3>
+            </article>
+
+            <!-- Col 3-4, Row 2: You're In -->
+            <article class="mega-prize-card youre-in">
+              <span>1 redeem</span>
+              <h3>You're in</h3>
+            </article>
+
+            <!-- Col 4, Row 3: Laptop -->
+            <article class="mega-prize-card coral">
+              <div class="mega-card-label">
+                <span>Tech Prize</span>
+                <span>04</span>
+              </div>
+              <div class="mega-icon-wrap">
+                <svg role="img" viewBox="0 0 100 80" aria-label="Laptop outline">
+                  <path d="M16,8 H84 A5,5,0,0,1,89,13 V51 A5,5,0,0,1,84,56 H16 A5,5,0,0,1,11,51 V13 A5,5,0,0,1,16,8 Z"/>
+                  <path d="M5,68 h90 l-7,-8 H12 Z"/>
+                </svg>
+              </div>
+              <h3>Laptop</h3>
+            </article>
+
+            <!-- Col 1-2, Row 3: Game console -->
+            <article class="mega-prize-card wide">
+              <div class="mega-card-label">
+                <span>Play Prize</span>
+                <span>05</span>
+              </div>
+              <div class="mega-icon-wrap">
+                <svg role="img" viewBox="0 0 130 90" aria-label="Game console outline">
+                  <path d="M33,30 H97 A19,19,0,0,1,116,49 V53 A19,19,0,0,1,97,72 H33 A19,19,0,0,1,14,53 V49 A19,19,0,0,1,33,30 Z"/>
+                  <path d="M36,51 h22 m-11,-11 v22"/>
+                  <circle cx="84" cy="47" r="3.5"/>
+                  <circle cx="98" cy="56" r="3.5"/>
+                </svg>
+              </div>
+              <h3>Game console</h3>
+            </article>
+
+            <!-- Col 3, Row 3: VR -->
+            <article class="mega-prize-card gold">
+              <div class="mega-card-label">
+                <span>Future Prize</span>
+                <span>06</span>
+              </div>
+              <div class="mega-icon-wrap">
+                <svg role="img" viewBox="0 0 100 80" aria-label="VR goggles outline">
+                  <path d="M12,34 c4,-11,17,-16,38,-16 s34,5,38,16 v21 c0,6,-4,11,-9,11 H58 c-5,0,-9,-5,-9,-11 c0,5,-3,11,-9,11 H42 c-6,0,-9,-5,-9,-11 c0,5,-3,11,-9,11 H22 c-5,0,-9,-4,-9,-11 V34 Z"/>
+                  <path d="M23,45 h18 m17,0 h18"/>
+                </svg>
+              </div>
+              <h3>VR goggles</h3>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section reward ai-class" id="reward-03">
+
+        <!-- Dark left panel — clip-path animated by GSAP -->
+        <div class="ai-dark-panel">
+          <div class="ai-terminal-wrap" aria-label="AI agent agentic loop demo">
+            <div class="ai-terminal">
+              <div class="ai-term-bar">
+                <span class="ai-term-dot red"></span>
+                <span class="ai-term-dot amber"></span>
+                <span class="ai-term-dot green"></span>
+                <span class="ai-term-title">ai-agent — run</span>
+              </div>
+              <div class="ai-term-body">
+                <p class="tl"><span class="tp">→ </span><span class="tc">agent run </span><span class="ty">"build my study plan"</span></p>
+                <p class="tl"><span class="tw">  ├─ </span><span class="tb">RAG</span><span class="tw">  scanning notes </span><span class="tg">···</span><span class="tw"> done</span></p>
+                <p class="tl"><span class="tw">  ├─ </span><span class="tm">MCP</span><span class="tw">  loading calendar </span><span class="tg">···</span><span class="tw"> done</span></p>
+                <p class="tl"><span class="tw">  ├─ </span><span class="tb">CTX</span><span class="tw">  building context </span><span class="tg">···</span><span class="tw"> done</span></p>
+                <p class="tl"><span class="tw">  └─ </span><span class="tc">generating plan</span><span class="ty">...</span></p>
+                <p class="tl tl-gap"><span class="tg">✓ </span><span class="tc">Plan ready</span><span class="td">  · </span><span class="tw">2.3s</span></p>
+                <p class="tl tl-cursor"><span class="tp">→ </span><span class="tc ai-cursor">_</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Light right panel — editorial copy -->
+        <div class="ai-light-panel">
+          <div class="section-copy">
+            <p class="reward-index">Reward 03</p>
+            <h2>FREE AI CLASS.</h2>
+            <p>Make AI work for you, like Tony Stark. Real skills, not theory.</p>
+            <a class="scroll-trigger" href="#reward-04">Choose your fighter next</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section reward books" id="reward-04">
+        <div class="section-inner book-inner">
+
+          <!-- Editorial heading -->
+          <div class="book-editorial">
+            <p class="reward-index">Reward 04</p>
+            <h2>CHOOSE YOUR FIGHTER.</h2>
+          </div>
+
+          <!-- Open book visual -->
+          <div class="book-stage" aria-label="Scroll to flip through book pages: Novel, Comic, Exercise, AI">
+            <div class="book-wrap">
+
+              <!-- Spine -->
+              <div class="book-spine"><span>SW BOOKSTORE</span></div>
+
+              <!-- Left page: initial Novel layer + flip shadow overlay -->
+              <div class="book-left">
+                <div class="bk-content" data-idx="0">
+                  <p class="bk-cat">Novel</p>
+                  <div class="bk-ruled">
+                    <i></i><i class="s"></i><i></i><i class="m"></i>
+                    <i class="xs"></i><i></i><i class="s"></i><i class="m"></i>
+                  </div>
+                </div>
+                <!-- Dot nav still needs these for label tracking -->
+                <div class="bk-content" data-idx="1" aria-hidden="true">
+                  <p class="bk-cat">Comic</p>
+                </div>
+                <div class="bk-content" data-idx="2" aria-hidden="true">
+                  <p class="bk-cat">Exercise</p>
+                </div>
+                <div class="bk-content" data-idx="3" aria-hidden="true">
+                  <p class="bk-cat">AI</p>
+                </div>
+                <span class="bk-num bk-num--l">01</span>
+                <!-- Shadow cast on left page by turning flip page -->
+                <div class="book-page-shadow" aria-hidden="true"></div>
+              </div>
+
+              <!-- Right page: static lines + 3 stacked 3-D flip pages -->
+              <div class="book-right">
+                <div class="bk-ruled">
+                  <i></i><i class="m"></i><i class="s"></i><i></i>
+                  <i class="xs"></i><i class="m"></i><i></i><i class="s"></i><i></i>
+                </div>
+                <span class="bk-num">02</span>
+                <div class="book-edge"></div>
+
+                <!-- Flip 1: Novel → Comic -->
+                <div class="book-flip-page" aria-hidden="true">
+                  <div class="bfp-front">
+                    <div class="bk-ruled">
+                      <i></i><i class="m"></i><i class="s"></i><i></i>
+                      <i class="xs"></i><i class="m"></i><i></i><i class="s"></i><i></i>
+                    </div>
+                  </div>
+                  <div class="bfp-back">
+                    <p class="bk-cat">Comic</p>
+                    <div class="bk-ruled">
+                      <i></i><i class="m"></i><i class="s"></i><i></i>
+                      <i class="xs"></i><i class="m"></i><i></i><i class="s"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Flip 2: Comic → Exercise -->
+                <div class="book-flip-page" aria-hidden="true">
+                  <div class="bfp-front">
+                    <div class="bk-ruled">
+                      <i></i><i class="m"></i><i class="s"></i><i></i>
+                      <i class="xs"></i><i class="m"></i><i></i><i class="s"></i><i></i>
+                    </div>
+                  </div>
+                  <div class="bfp-back">
+                    <p class="bk-cat">Exercise</p>
+                    <div class="bk-ruled">
+                      <i></i><i class="s"></i><i class="m"></i><i></i>
+                      <i class="xs"></i><i></i><i class="m"></i><i class="s"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Flip 3: Exercise → AI -->
+                <div class="book-flip-page" aria-hidden="true">
+                  <div class="bfp-front">
+                    <div class="bk-ruled">
+                      <i></i><i class="m"></i><i class="s"></i><i></i>
+                      <i class="xs"></i><i class="m"></i><i></i><i class="s"></i><i></i>
+                    </div>
+                  </div>
+                  <div class="bfp-back">
+                    <p class="bk-cat">AI</p>
+                    <div class="bk-ruled">
+                      <i></i><i class="m"></i><i></i><i class="s"></i>
+                      <i></i><i class="xs"></i><i class="m"></i><i class="s"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Dot navigation -->
+          <div class="book-nav" aria-label="Page indicator">
+            <span class="book-dot" aria-label="Novel"></span>
+            <span class="book-dot" aria-label="Comic"></span>
+            <span class="book-dot" aria-label="Exercise"></span>
+            <span class="book-dot" aria-label="AI"></span>
+            <span class="book-nav-label">Novel</span>
+          </div>
+
+          <a class="scroll-trigger" href="#ai-upgrade">But AI is already inside every set</a>
+
+        </div>
+      </section>
+
+      <section class="section ai-upgrade" id="ai-upgrade">
+        <div class="section-inner spotlight-layout">
+          <div class="spotlight-copy reveal">
+            <p class="eyebrow">Built Into Every Combo</p>
+            <h2>THE AI UPGRADE IS BUILT IN.</h2>
+            <p>
+              Every combo comes with the AI Book and free AI Class.
+            </p>
+            <div class="ai-outcome-ticker" aria-label="AI upgrade outcomes" aria-live="polite">
+              <div class="ticker-scramble" id="tickerScramble">STUDY FASTER</div>
+            </div>
+          </div>
+          <div class="bonus-strip reveal">
+            <div class="bonus-ribbon" aria-label="AI Combo bonus"><span>AI Combo Bonus<em class="ribbon-shine"></em></span></div>
+            <p class="bonus-headline">ONE FREE TECH GIFT.<br>GUARANTEED.</p>
+            <p class="bonus-sub">Pick the AI Combo and one of these lands with your blind box.</p>
+            <div class="bonus-gift-row" aria-label="AI combo tech gifts">
+              <span>Speaker</span>
+              <span>Earphone</span>
+              <span>Mini fan</span>
+              <span>Powerbank</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="stack">
+        <div class="section-inner stack-layout">
+          <div class="stack-copy">
+            <p class="eyebrow">Reward Stack</p>
+            <h2>ALL THIS. ONE REDEEM.</h2>
+            <p>Four unlocks land together, with the AI Combo tech gift available as a bonus upgrade.</p>
+            <a class="scroll-trigger" href="#combo-picker">Unlock your Form combos</a>
+          </div>
+          <div class="reward-stack" aria-label="One redeem reward stack">
+            <div class="stack-orbit" aria-hidden="true"></div>
+            <article class="stack-card stack-card-one">
+              <span>Blind Box</span>
+              <strong>Guaranteed</strong>
+            </article>
+            <article class="stack-card stack-card-two">
+              <span>Mega Draw</span>
+              <strong>Big prizes</strong>
+            </article>
+            <article class="stack-card stack-card-three">
+              <span>AI Class</span>
+              <strong>Free</strong>
+            </article>
+            <article class="stack-card stack-card-four">
+              <span>Books</span>
+              <strong>Your pick</strong>
+            </article>
+            <p class="stack-note">AI Combo bonus available: guaranteed tech gift.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section combo-picker" id="combo-picker">
+        <div class="section-inner">
+          <div class="center-copy">
+            <p class="eyebrow">Combo Unlock</p>
+            <h2>PICK YOUR FORM. UNLOCK YOUR COMBOS.</h2>
+            <p>Choose your Form first. Then pick your flavour.</p>
+          </div>
+
+          <div class="form-selector" role="tablist" aria-label="Select Form">
+            <button class="form-btn active" type="button" role="tab" aria-selected="true" data-form="1">Form 1</button>
+            <button class="form-btn" type="button" role="tab" aria-selected="false" data-form="2">Form 2</button>
+            <button class="form-btn" type="button" role="tab" aria-selected="false" data-form="3">Form 3</button>
+            <button class="form-btn" type="button" role="tab" aria-selected="false" data-form="4">Form 4</button>
+            <button class="form-btn" type="button" role="tab" aria-selected="false" data-form="5">Form 5</button>
+          </div>
+
+          <div class="combo-shell">
+            <div class="combo-toolbar">
+              <span id="comboStatus">Form 1 combos unlocked.</span>
+              <strong>Most Picked</strong>
+            </div>
+
+            <div class="carousel-wrap" id="carouselWrap">
+              <button class="carousel-arrow" id="prevCombo" type="button" aria-label="Previous combo">
+                <span aria-hidden="true">‹</span>
+              </button>
+              <div class="combo-carousel" id="comboCarousel" aria-live="polite"></div>
+              <button class="carousel-arrow" id="nextCombo" type="button" aria-label="Next combo">
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+
+            <div class="carousel-hint">Swipe to explore the top 5 picks.</div>
+            <div class="combo-progress" id="comboProgress" aria-label="Combo carousel progress"></div>
+            <button class="view-all-btn" id="viewAllCombo" type="button">
+              <span class="view-all-btn-circle" aria-hidden="true">→</span>
+              <span id="viewAllLabel">See all Form 1 combos</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="cta">
+        <div class="final-inner">
+
+          <!-- LEFT: CLAIM YOUR -->
+          <div class="final-left">
+            <div class="final-claim">
+              <div class="fcw-outer"><span class="fcw-inner">CLAIM</span></div>
+              <div class="fcw-outer"><span class="fcw-inner">YOUR</span></div>
+            </div>
+          </div>
+
+          <!-- CENTER: diagonal reward card -->
+          <div class="final-card" id="finalCard" aria-label="Four rewards: Blind Box, Mega Draw, AI Class, Your Books">
+
+            <!-- Strip 1 – thin – dark -->
+            <div class="fstrip fstrip-dk s1">
+              <div class="fstrip-bg"></div>
+              <div class="fstrip-text s1-text">
+                <span class="s1-num">01 —</span>
+                <span class="s1-name">BLIND BOX</span>
+              </div>
+              <div class="fstrip-mask" id="fmask1"></div>
+            </div>
+
+            <!-- Strip 2 – tall – cream -->
+            <div class="fstrip fstrip-lt s2">
+              <div class="fstrip-bg"></div>
+              <span class="s2-ghost" aria-hidden="true">M</span>
+              <div class="fstrip-text s2-text">
+                <div class="s2-mega">MEGA</div>
+                <div class="s2-draw">Draw</div>
+              </div>
+              <div class="fstrip-mask" id="fmask2"></div>
+            </div>
+
+            <!-- Strip 3 – medium – dark -->
+            <div class="fstrip fstrip-dk s3">
+              <div class="fstrip-bg"></div>
+              <div class="fstrip-text s3-text">
+                <span class="s3-num">{ 03 }</span>
+                <span class="s3-class">AI CLASS</span>
+              </div>
+              <div class="fstrip-mask" id="fmask3"></div>
+            </div>
+
+            <!-- Strip 4 – tall – cream -->
+            <div class="fstrip fstrip-lt s4">
+              <div class="fstrip-bg"></div>
+              <div class="fstrip-text s4-text">
+                <div class="s4-your">YOUR</div>
+                <div class="s4-books">Books</div>
+              </div>
+              <div class="fstrip-mask" id="fmask4"></div>
+            </div>
+
+          </div>
+
+          <!-- RIGHT: 4 REWARDS -->
+          <div class="final-right">
+            <div class="final-four" id="finalFour">4</div>
+            <div class="final-rule" id="finalRule"></div>
+            <div class="final-rewards-word" id="finalRewards">REWARDS</div>
+            <p class="final-sub" id="finalSub">Fill your combo into the brochure, pass it to your teacher, get ready. Don't watch your friends win without you.</p>
+            <p class="final-deadline" id="finalDeadline">Submit by 30 July 2026</p>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <strong>SW Bookstore Rewards</strong>
+        <span>One redeem. Four rewards.</span>
+        <span>Brochures due 30 July 2026.</span>
+      </div>
+    </footer>
+
+    <!-- Card launch transition overlay — fixed, outside all sections so overflow:clip can't clip it -->
+    <div class="card-launch" aria-hidden="true">
+      <div class="card-launch-face"></div>
+      <div class="card-launch-wash"></div>
+    </div>
+
+    <div class="modal" id="comboModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-panel" role="document">
+        <button class="modal-close" id="closeModal" type="button" aria-label="Close combo details">
+          <span aria-hidden="true">×</span>
+        </button>
+        <p class="reward-index" id="modalForm">Form 1</p>
+        <h2 id="modalTitle">Combo</h2>
+        <p id="modalDescription"></p>
+        <div class="modal-list" id="modalList"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="gsap-animations.js?v=20260619-v18"></script>
+    <script src="script.js?v=20260619-premium-v11"></script>
+  </body>
+</html>
